@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="application/Config"/>
+	<buildpathentry kind="src" path="application/Controllers"/>
+	<buildpathentry kind="src" path="application/Entities"/>
+	<buildpathentry kind="src" path="application/Filters"/>
+	<buildpathentry kind="src" path="application/Models"/>
+	<buildpathentry kind="src" path="application/Views"/>
+	<buildpathentry kind="src" path="public"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry excluding="ThirdParty/PSR/Log/" kind="src" path="system">
+		<attributes>
+			<attribute name="composer" value="source"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="system/ThirdParty/PSR/Log">
+		<attributes>
+			<attribute name="composer" value="source"/>
+		</attributes>
+	</buildpathentry>
+</buildpath>
